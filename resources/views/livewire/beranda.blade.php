@@ -66,8 +66,6 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        const pendapatanData = @json($pendapatanBulanan); // Data from controller
-
         const labels = pendapatanData.map(data => data.tanggal);
         const pendapatan = pendapatanData.map(data => data.total);
 
