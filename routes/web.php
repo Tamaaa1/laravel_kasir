@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 use App\Livewire\Beranda;
 use App\Livewire\User;
 Use App\Livewire\Laporan;
